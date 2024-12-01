@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+h1 {
+    color: maroon;
+    text-align: center;
+}
+a {
+    color: green;
+    text-decoration: none;
+}
+a:active {
+    color: blue;
+}
+a:visited {
+    color: red;
+}
+table {
+    width: 50%;
+    margin: 20px auto;
+    border: 2px solid blue;
+    border-collapse: collapse;
+    text-align: center;
+}
+th {
+    background-color: lightblue;
+    color: blue;
+}
+td, th {
+    border: 2px solid blue;
+    padding: 10px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: auto;
+}
+caption {
+    caption-side: top;
+    color: blue;
+    font-size: 1.2em;
+}
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
